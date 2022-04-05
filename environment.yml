@@ -1,0 +1,20 @@
+name: pagtools
+channels:
+  - https://artifactory.airbus.corp/artifactory/api/conda/conda-forge
+dependencies:
+  - python=3.9
+  - conda-pack
+  - pip:
+    - Sphinx
+    - xlrd
+    - jupyter
+    - widgetsnbextension
+    - pylint
+    - pandas
+    - numpy
+    - black
+    - cookiecutter==1.7.3
+    - pytest==6.2.5
+    - pytest-black==0.3.12
+    - pyarrow==7.0.0
+prefix: .\env
