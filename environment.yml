@@ -1,6 +1,4 @@
 name: pagtools
-channels:
-  - https://artifactory.airbus.corp/artifactory/api/conda/conda-forge
 dependencies:
   - python=3.9
   - conda-pack
@@ -17,4 +15,6 @@ dependencies:
     - pytest==6.2.5
     - pytest-black==0.3.12
     - pyarrow==7.0.0
+    - bamboolib
+
 prefix: .\env
